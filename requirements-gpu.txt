@@ -1,0 +1,10 @@
+jupyter
+notebook
+numpy
+matplotlib
+tensorflow-gpu
+tqdm
+plotly
+pandas
+networkx
+scipy

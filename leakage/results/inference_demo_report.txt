@@ -1,0 +1,21 @@
+================================================================================
+LEAKAGE DETECTION FRAMEWORK — INFERENCE REPORT
+Physics-Integrated GCNs · Soumyajit Banerjee · University of Calcutta
+================================================================================
+
+SINGLE-SNAPSHOT DEMO (Test Sample #263)
+--------------------------------------------------------------------------------
+  True Leak Node     : 46
+  True Leak Severity : 10.0000
+
+  Model      Predicted    Severity     Confidence   Result
+  ------------------------------------------------------------------
+  RF         46           9.9449          45.7%      CORRECT
+  ET         46           10.1150         54.2%      CORRECT
+  XGB        46           9.7319          91.1%      CORRECT
+  ------------------------------------------------------------------
+  ENSEMBLE   46           9.9306          66.4%      CORRECT
+
+  Inference time (3 models): 0.2985 s
+
+================================================================================
